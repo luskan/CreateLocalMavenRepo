@@ -53,6 +53,8 @@ And in the command-line options, add the following:
 
 Replace the paths accordingly to match your setup.
 
+This setup was tested only on macos.
+
 ### Compiling Custom Engines
 
 1. **Dependencies**: Ensure you have all necessary dependencies (git, python3, depot tools, etc.). A comprehensive list is available [here](https://github.com/flutter/flutter/wiki/Setting-up-the-Engine-development-environment).
