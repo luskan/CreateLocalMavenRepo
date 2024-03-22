@@ -1,6 +1,6 @@
-# Custom Flutter Engine Maven Repository for Android
+# Local maven repository for using custom flutter engine in Android Studio or gradle builds
 
-This application facilitates the creation of a local Maven repository, hosting a custom-built Flutter engine. Typically, using a custom Flutter engine requires command-line Flutter commands like `flutter run`. However, if you're embedding Flutter within an Android native application via Gradle, the process usually involves compiling with `gradlew` or from the Android Studio IDE.
+This application facilitates the creation of a local Maven repository, hosting a custom-built Flutter engine. Typically, using a custom Flutter engine requires command-line Flutter commands like `flutter run`. However, if you're embedding Flutter within an Android native application via Gradle, the process usually involves compiling with `gradlew` or from the Android Studio IDE. Then gradle resolves flutter dependencies using official maven server.
 
 ## Tutorial: Using a Locally Built Flutter Engine in a Gradle-Built Android Application
 
